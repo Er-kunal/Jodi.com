@@ -6,7 +6,6 @@
 
 **LagnaJulwa** is a Java-based Marriage Bureau system that manages bride and groom profiles using **CRUD operations**. The backend uses **SQL**, and Java is used for frontend and logic.
 
----
 
 ## 📂 Project Structure & File Explanation
 
