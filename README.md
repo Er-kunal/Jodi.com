@@ -13,28 +13,30 @@
 LagnaJulwa/
 │
 ├── src/
-│   ├── db/
-│   │   └── DBConnection.java
-│   │
-│   ├── model/
-│   │   └── User.java
-│   │
-│   ├── dao/
-│   │   └── UserDAO.java
-│   │
-│   ├── service/
-│   │   └── UserService.java
-│   │
-│   ├── ui/
-│   │   └── MainMenu.java
-│   │
-│   └── Main.java
+│   └── com/
+│       └── lagna/
+│           └── julwa/
+│               ├── db/
+│               │   └── DBConnection.java
+│               │
+│               ├── model/
+│               │   └── User.java
+│               │
+│               ├── dao/
+│               │   └── UserDAO.java
+│               │
+│               ├── service/
+│               │   └── UserService.java
+│               │
+│               ├── ui/
+│               │   └── MainMenu.java
+│               │
+│               └── Main.java
 │
 ├── sql/
 │   └── marriage_bureau.sql
 │
 └── README.md
-
 
 
 
