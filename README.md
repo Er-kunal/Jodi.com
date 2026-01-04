@@ -12,25 +12,44 @@
 ## 📂 Project Structure
 
 ```
-LagnaJulwa/
+jodidotcom/
+│
 ├── src/
 │   └── com/
-│       └── lagna/
-│           └── julwa/
-│               ├── db/
-│               │   └── DBConnection.java
-│               ├── model/
-│               │   └── User.java
-│               ├── dao/
-│               │   └── UserDAO.java
-│               ├── service/
-│               │   └── UserService.java
-│               ├── ui/
-│               │   └── MainMenu.java
-│               └── Main.java
+│       ├── application/
+│       │   └── MainApp.java
+│       │
+│       ├── controller/
+│       │   └── UserController.java
+│       │
+│       ├── model/
+│       │   └── User.java
+│       │
+│       ├── dao/
+│       │   ├── UserDAO.java
+│       │   └── UserDAOImpl.java
+│       │
+│       ├── service/
+│       │   ├── UserService.java
+│       │   └── UserServiceImpl.java
+│       │
+│       ├── util/
+│       │   ├── DBConnection.java
+│       │   ├── LanguageUtil.java
+│       │   └── VoiceUtil.java
+│       │
+│       └── validation/
+│           ├── Validator.java
+│           └── UserValidator.java
+│
+├── lib/
+│   └── mysql-connector-j-8.0.33.jar
+│
 ├── sql/
-│   └── marriage_bureau.sql
-└── README.md
+│   └── jodidotcom.sql
+│
+├── README.md
+└── .gitignore
 ```
 
 > **Note:** Add `.gitkeep` files in empty folders so Git preserves them.
